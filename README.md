@@ -38,7 +38,11 @@ DATABASE_URL=mongodb://<USER>:<PASSWORD>@ds112345.mlab.com:12345/<DBNAME>
 
 ## Exercise
 
-- ...
+- Create a Mongoose Schema and Model for Todos
+- Create a file named `models.js`
+- In `models.js`, require in the necessary modules and create a Mongoose Schema with the following fields
+  - 'title' is a String
+
 - The test results will help guide the way
 
 You have successfully completed the task when all the unit tests pass and the client applications works without any errors.

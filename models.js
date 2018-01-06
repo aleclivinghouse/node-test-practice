@@ -16,5 +16,3 @@ todoSchema.methods.serialize = function() {
 const Todo = mongoose.model("Todo", todoSchema);
 
 module.exports = Todo;
-
-
