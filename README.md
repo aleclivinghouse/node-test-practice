@@ -44,7 +44,11 @@ Tasks:
 - Require in the necessary modules and create a Mongoose Schema with the following fields
   - `title` is type String
   - `completed` is type Boolean and defaults to `false`
-- Create a method name `serialize` on the schema's `.methods` property. The function returns an object using the documents values;
+- Create a method name `serialize` on the schema's `.methods` property. The function returns an object using the documents values:
+  - The `_id` is returned as `id`
+  - The `title` and `completed` properties are returned with the same name.
+- Create a model named `Todo` for the `todos` collection and pass in the schema 
+- Finally, export the new model. 
 
 
 - The test results will help guide the way
