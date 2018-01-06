@@ -38,10 +38,14 @@ DATABASE_URL=mongodb://<USER>:<PASSWORD>@ds112345.mlab.com:12345/<DBNAME>
 
 ## Exercise
 
-- Create a Mongoose Schema and Model for Todos
+Create a Mongoose schema, a `serialize` method, and Model for Todos
+Tasks:
 - Create a file named `models.js`
-- In `models.js`, require in the necessary modules and create a Mongoose Schema with the following fields
-  - 'title' is a String
+- Require in the necessary modules and create a Mongoose Schema with the following fields
+  - `title` is type String
+  - `completed` is type Boolean and defaults to `false`
+- Create a method name `serialize` on the schema's `.methods` property. The function returns an object using the documents values;
+
 
 - The test results will help guide the way
 
