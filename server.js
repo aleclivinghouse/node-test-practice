@@ -121,9 +121,9 @@ if (require.main === module) {
       console.error(err);
     });  
   
-  const server = app.listen(PORT, function () {
-    console.log('Your app is listening on port ' + server.address().port);
-  });
+    app.listen(PORT, function () {
+      console.log('Your app is listening on port ' + this.address().port);
+    });
 }
 
 module.exports = app; // Export for testing
