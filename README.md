@@ -9,7 +9,7 @@ This is a FullStack Todo Application, the client is based on [Todo MVC](http://t
   - Client: Basic jQuery selectors, event-handlers, DOM manipulation and AJAX
   - Web Server: Node and Express with Mongoose 
   - Database: Mongo hosted by [MLab](mlab.com)
-  - Tests: Mocha, Chai, Chai-Http and Shai-Spies
+  - Tests: Mocha, Chai, Chai-Http and Chai-Spies
 
 ## The "Rules"
 
@@ -53,4 +53,4 @@ Tasks:
 
 - The test results will help guide the way
 
-You have successfully completed the task when all the unit tests pass and the client applications works without any errors.
+You have successfully completed the task when all the unit tests pass and the client application works without any errors.
