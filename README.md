@@ -16,9 +16,10 @@ This is a FullStack Todo Application, the client is based on [Todo MVC](http://t
 You should attempt to complete this challenge without looking at any other resources such as googling, stack-overflow, documentation or course materials. However, you may look at any of the files in the project including the schema in the `models.js` file and the integration tests in `test/server.test.js` and you may ask the interviewer clarifying questions at any point.
 
 ### 3 Lifelines
+
 - If you get stuck, you have 3 lifelines (like "Who Wants to Be a Millionaire")
   - 1) Online documentation - browse Express, Mongoose, Chai, Chai-Http docs
-  - 2) Interview Hint - Ask the interview for a hint
+  - 2) Interview Hint - Ask the interviewer for a hint
   - 3) Google search - one time google search including stack-overflow and docs
 
 ## Setup
@@ -50,7 +51,4 @@ Tasks:
 - Create a model named `Todo` for the `todos` collection and pass in the schema 
 - Finally, export the new model. 
 
-
-- The test results will help guide the way
-
-You have successfully completed the task when all the unit tests pass and the client application works without any errors.
+You have completed the task when all the unit tests pass and the client application works without any errors.
