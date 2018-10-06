@@ -1,3 +1,3 @@
-exports.PORT = process.env.PORT || 8080; 
+exports.PORT = process.env.PORT || 8080;
 
-exports.DATABASE_URL = process.env.DATABASE_URL || 'mongodb://localhost/todo-app';
+exports.DATABASE_URL = process.env.DATABASE_URL || 'mongodb://localhost:27017/todo-app';
